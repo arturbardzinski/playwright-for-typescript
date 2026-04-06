@@ -1,0 +1,34 @@
+{
+  "name": "playwright-for-typescript",
+  "version": "1.0.0",
+  "description": "Starter project for learning Playwright with TypeScript",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturbardzinski/playwright-for-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arturbardzinski/playwright-for-typescript/issues"
+  },
+  "homepage": "https://github.com/arturbardzinski/playwright-for-typescript#readme",
+  "engines": {
+    "node": "25.9.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.2"
+  }
+}
