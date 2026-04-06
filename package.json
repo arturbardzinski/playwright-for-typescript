@@ -15,7 +15,12 @@
     "learn:03": "ts-node examples/typescript-lessons/03-async-await.ts",
     "learn:04": "ts-node examples/typescript-lessons/04-patterny-testowe.ts",
     "learn:05": "ts-node examples/typescript-lessons/05-sciagawka.ts",
-    "learn:all": "npm run learn:01 && npm run learn:02 && npm run learn:03 && npm run learn:04 && npm run learn:05"
+    "learn:06": "ts-node examples/typescript-lessons/06-zmienne-warunki-petle.ts",
+    "learn:07": "ts-node examples/typescript-lessons/07-obiekty-tablice-funkcje.ts",
+    "learn:08": "ts-node examples/typescript-lessons/08-bledy-try-catch.ts",
+    "learn:09": "ts-node examples/typescript-lessons/09-praca-z-api-json.ts",
+    "learn:10": "ts-node examples/typescript-lessons/10-playwright-od-zera.ts",
+    "learn:all": "npm run learn:01 && npm run learn:02 && npm run learn:03 && npm run learn:04 && npm run learn:05 && npm run learn:06 && npm run learn:07 && npm run learn:08 && npm run learn:09 && npm run learn:10"
   },
   "repository": {
     "type": "git",
