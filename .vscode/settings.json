@@ -1,0 +1,8 @@
+{
+  "code-runner.runInTerminal": true,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.showRunCommandInOutput": false,
+  "code-runner.executorMap": {
+    "typescript": "cd \"$workspaceRoot\" && npx ts-node $fullFileName"
+  }
+}

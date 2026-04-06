@@ -4,7 +4,7 @@ Prosty projekt do nauki automatyzacji testow w `Playwright` i `TypeScript`.
 
 ## Wymagania
 
-- Node.js 20+
+- Node.js 25.9.0
 - npm
 
 ## Instalacja
@@ -54,6 +54,8 @@ npm run report
 - `tests/api/github-api.spec.ts` - przyklad testu API
 - `src/pages/*` - prosty Page Object Pattern
 - `tests/fixtures/base.ts` - fixture z gotowym page objectem
+- `docs/typescript/*` - materialy do nauki TypeScript pod test automation
+- `src/examples/*` - codzienne helpery i wzorce TypeScript
 
 ## Dalsza nauka
 

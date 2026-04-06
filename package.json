@@ -9,7 +9,13 @@
     "test:ui": "playwright test --ui",
     "test:headed": "playwright test --headed",
     "test:debug": "playwright test --debug",
-    "report": "playwright show-report"
+    "report": "playwright show-report",
+    "learn:01": "ts-node examples/typescript-lessons/01-podstawy.ts",
+    "learn:02": "ts-node examples/typescript-lessons/02-typy-w-praktyce.ts",
+    "learn:03": "ts-node examples/typescript-lessons/03-async-await.ts",
+    "learn:04": "ts-node examples/typescript-lessons/04-patterny-testowe.ts",
+    "learn:05": "ts-node examples/typescript-lessons/05-sciagawka.ts",
+    "learn:all": "npm run learn:01 && npm run learn:02 && npm run learn:03 && npm run learn:04 && npm run learn:05"
   },
   "repository": {
     "type": "git",
