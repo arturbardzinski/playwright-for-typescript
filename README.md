@@ -4,7 +4,7 @@ Prosty projekt do nauki automatyzacji testow w `Playwright` i `TypeScript`.
 
 ## Wymagania
 
-- Node.js 25.9.0
+- Node.js 22 lub nowszy
 - npm
 
 ## Instalacja
@@ -23,6 +23,7 @@ npm test
 Przydatne tryby:
 
 ```bash
+npm run typecheck
 npm run test:ui
 npm run test:headed
 npm run test:debug
