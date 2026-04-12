@@ -13,6 +13,7 @@ export default defineConfig({
   reporter: [["html", { open: "never" }], ["list"]],
   use: {
     baseURL: "https://playwright.dev",
+    headless: false,
     trace: "on-first-retry",
     screenshot: "only-on-failure",
     video: "retain-on-failure"
