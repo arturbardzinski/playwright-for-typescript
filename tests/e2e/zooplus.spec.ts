@@ -1,7 +1,10 @@
 import { expect, test } from "../fixtures/base";
 
 test.describe("Zooplus category filters", () => {
-  test.skip(({ browserName }) => browserName !== "chromium", "External Zooplus smoke test runs in Chromium.");
+  test.skip(
+    ({ browserName }) => browserName !== "chromium",
+    "External Zooplus smoke test runs in Chromium."
+  );
 
   test("opens cat wet food category and applies a brand filter", async ({ page, zooplusPage }) => {
     test.setTimeout(60_000);

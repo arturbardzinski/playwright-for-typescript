@@ -11,7 +11,10 @@ export class ZooplusPage {
 
   async openCatsCategory(): Promise<void> {
     await this.acceptCookiesIfVisible();
-    await this.page.getByRole("link", { name: /^Koty$/ }).first().click();
+    await this.page
+      .getByRole("link", { name: /^Koty$/ })
+      .first()
+      .click();
     await expect(this.page).toHaveURL(/\/shop\/koty/);
   }
 

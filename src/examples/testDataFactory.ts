@@ -6,9 +6,7 @@ export interface UserCredentials {
   role: UserRole;
 }
 
-export function createUserCredentials(
-  overrides: Partial<UserCredentials> = {}
-): UserCredentials {
+export function createUserCredentials(overrides: Partial<UserCredentials> = {}): UserCredentials {
   return {
     email: "test.user@example.com",
     password: "Secret123!",
