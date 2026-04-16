@@ -1,5 +1,6 @@
 // 10: Mini symulacja "flow testu" bez odpalania prawdziwej przegladarki.
-// Uruchom: npm run learn:10
+// W terminalu (nie w pliku .ts): npm run learn:10
+// Albo Code Runner / ts-node na tym pliku — nie zaznaczaj samej linii z "npm", to polecenie powloki, nie TypeScript.
 
 type StepResult = "passed" | "failed";
 
